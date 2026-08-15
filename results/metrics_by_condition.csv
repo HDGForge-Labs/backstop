@@ -1,0 +1,13 @@
+condition,incident_category,n_trials,n_caught,tpr,wilson_lower_95,wilson_upper_95
+A,cost_escalation,98,97 (no guardrail),N/A,N/A,N/A
+B,cost_escalation,98,65,0.6633,0.5651,0.7491
+C1,cost_escalation,98,98,1.0,0.9623,1
+C2,cost_escalation,98,98,1.0,0.9623,1
+A,loop_detection_genuine,14,8 (no guardrail),N/A,N/A,N/A
+B,loop_detection_genuine,14,14,1.0,0.7847,1
+C1,loop_detection_genuine,14,14,1.0,0.7847,1
+C2,loop_detection_genuine,14,14,1.0,0.7847,1
+A,false_positive_control,84,0 (no guardrail),N/A,N/A,N/A
+B,false_positive_control,84,41,0.4881,0.3841,0.5932
+C1,false_positive_control,84,0,0.0,0,0.0437
+C2,false_positive_control,84,0,0.0,0,0.0437

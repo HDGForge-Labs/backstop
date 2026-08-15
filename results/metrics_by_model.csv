@@ -1,0 +1,4 @@
+model,provider,n_trials,n_repeats,cost_esc_tpr,cost_esc_wilson_lower,cost_esc_wilson_upper,fpr,fpr_wilson_upper,p50_latency_ms
+gpt-5.6-luna,openai,560,5,1.0,0.9011,1,0.0,0.1135,6.44
+gpt-5.6-terra,openai,448,3,1.0,0.8794,1,0.0,0.138,6.41
+claude-haiku-4-5-20251001,anthropic,560,5,1.0,0.9011,1,0.0,0.1135,6.24
